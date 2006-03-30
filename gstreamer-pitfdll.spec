@@ -11,6 +11,7 @@ License: 	GPL
 Group: 		Libraries/Multimedia
 Source0:	pitfdll-%{_snap}.tar.bz2
 # Source0-md5:	d591070cf7f57c557e5515b45c161a32
+Patch0:		%{name}-codecs-path.patch
 URL:		http://ronald.bitfreak.net/pitfdll/
 BuildRequires: 	gstreamer-devel >= 0.10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -41,6 +42,7 @@ multimedialnych o zamkniêtych formatach.
 
 %prep
 %setup -q -n pitfdll
+%patch0 -p1
 
 %build
 %{__aclocal} -I m4
