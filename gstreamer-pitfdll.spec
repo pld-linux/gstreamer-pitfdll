@@ -8,7 +8,7 @@ Name: 		gstreamer-pitfdll
 Version: 	0.9cvs
 Release:	0.%{_snap}.2
 License: 	GPL
-Group: 		Libraries/Multimedia
+Group:		Libraries/Multimedia
 Source0:	pitfdll-%{_snap}.tar.bz2
 # Source0-md5:	d591070cf7f57c557e5515b45c161a32
 Patch0:		%{name}-codecs-path.patch
