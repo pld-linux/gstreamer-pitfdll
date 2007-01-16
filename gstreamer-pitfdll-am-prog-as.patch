@@ -1,0 +1,11 @@
+--- pitfdll/configure.ac.~1.8.~	2005-12-02 16:15:40.000000000 +0100
++++ pitfdll/configure.ac	2007-01-16 01:07:22.000000000 +0100
+@@ -41,7 +41,7 @@
+ 
+ AC_PROG_CC
+ AM_PROG_CC_STDC
+-AS="${CC}"
++AM_PROG_AS
+ 
+ dnl decide on error flags
+ AS_COMPILER_FLAG(-Wall, GST_WALL="yes", GST_WALL="no")

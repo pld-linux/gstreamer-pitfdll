@@ -6,16 +6,18 @@ Summary:	GStreamer DLL loader plugin
 Summary(pl):	Wtyczka wczytuj±ca DLL dla GStreamera
 Name: 		gstreamer-pitfdll
 Version: 	0.9cvs
-Release:	0.%{_snap}.2
+Release:	0.%{_snap}.3
 License: 	GPL
 Group:		Libraries/Multimedia
 Source0:	pitfdll-%{_snap}.tar.bz2
 # Source0-md5:	d591070cf7f57c557e5515b45c161a32
 Patch0:		%{name}-codecs-path.patch
+Patch1:		%{name}-am-prog-as.patch
 URL:		http://ronald.bitfreak.net/pitfdll/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires: 	gstreamer-devel >= 0.10
+BuildRequires: 	gstreamer-plugins-base >= 0.10
 BuildRequires:	libtool
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -47,6 +49,7 @@ multimedialnych o zamkniêtych formatach.
 %prep
 %setup -q -n pitfdll
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__libtoolize}
