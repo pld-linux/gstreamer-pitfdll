@@ -3,7 +3,7 @@
 %define		_snap	200603282224
 #
 Summary:	GStreamer DLL loader plugin
-Summary(pl):	Wtyczka wczytuj±ca DLL dla GStreamera
+Summary(pl.UTF-8):   Wtyczka wczytujÄ…ca DLL dla GStreamera
 Name: 		gstreamer-pitfdll
 Version: 	0.9cvs
 Release:	0.%{_snap}.3
@@ -35,16 +35,16 @@ installing new plug-ins.
 This plugin contains a DLL loader to provide media playback for
 proprietary formats.
 
-%description -l pl
-GStreamer to ¶rodowisko obróbki danych strumieniowych, bazuj±ce na
-grafie filtrów operuj±cych na danych medialnych. Aplikacje u¿ywaj±ce
-tej biblioteki mog± robiæ wszystko od przetwarzania d¼wiêku w czasie
-rzeczywistym, do odtwarzania filmów i czegokolwiek innego zwi±zanego z
-mediami. Architektura bazuj±ca na wtyczkach pozwala na ³atwe dodawanie
-nowych typów danych lub mo¿liwo¶ci obróbki.
+%description -l pl.UTF-8
+GStreamer to Å›rodowisko obrÃ³bki danych strumieniowych, bazujÄ…ce na
+grafie filtrÃ³w operujÄ…cych na danych medialnych. Aplikacje uÅ¼ywajÄ…ce
+tej biblioteki mogÄ… robiÄ‡ wszystko od przetwarzania dÅºwiÄ™ku w czasie
+rzeczywistym, do odtwarzania filmÃ³w i czegokolwiek innego zwiÄ…zanego z
+mediami. Architektura bazujÄ…ca na wtyczkach pozwala na Å‚atwe dodawanie
+nowych typÃ³w danych lub moÅ¼liwoÅ›ci obrÃ³bki.
 
-Ta wtyczka wczytuje biblioteki DLL do odtwarzania plików
-multimedialnych o zamkniêtych formatach.
+Ta wtyczka wczytuje biblioteki DLL do odtwarzania plikÃ³w
+multimedialnych o zamkniÄ™tych formatach.
 
 %prep
 %setup -q -n pitfdll
