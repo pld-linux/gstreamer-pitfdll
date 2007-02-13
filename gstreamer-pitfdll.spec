@@ -3,7 +3,7 @@
 %define		_snap	200603282224
 #
 Summary:	GStreamer DLL loader plugin
-Summary(pl.UTF-8):   Wtyczka wczytująca DLL dla GStreamera
+Summary(pl.UTF-8):	Wtyczka wczytująca DLL dla GStreamera
 Name: 		gstreamer-pitfdll
 Version: 	0.9cvs
 Release:	0.%{_snap}.3
