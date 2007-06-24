@@ -16,7 +16,6 @@ URL:		http://ronald.bitfreak.net/pitfdll/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires: 	gstreamer-devel >= 0.10
-BuildRequires: 	gstreamer-plugins-base >= 0.10
 BuildRequires: 	gstreamer-plugins-base-devel >= 0.10
 BuildRequires:	libtool
 ExclusiveArch:	%{ix86}
