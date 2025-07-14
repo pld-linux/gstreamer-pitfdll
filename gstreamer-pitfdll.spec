@@ -47,7 +47,7 @@ multimedialnych o zamkniętych formatach.
 
 %prep
 %setup -q -n pitfdll
-%patch1 -p1
+%patch -P1 -p1
 
 %build
 %{__libtoolize}
